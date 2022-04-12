@@ -9,10 +9,11 @@ body, html {
 }
 nav {
     height: 66px;
-    position: fixed;
+    position: absolute;
     background-color: #fff;
     width: 100%;
     border-bottom: 1px solid black;
+    z-index: 1;
 }
 
 nav ul {
@@ -27,8 +28,8 @@ nav ul li {
     list-style: none;
     margin-right: 20px;
     border: 2px solid black;
-    padding: 12px 20px ;
-    margin-top: -35px;
+    padding: 10px 20px ;
+    margin-top: -33px;
     
 }
 nav ul a, a{
@@ -38,7 +39,8 @@ nav ul a, a{
     
 }
 nav ul li:hover {
-    background-color: aqua;
+    background-color: rgb(13, 110, 253, 0.5);
+    color: black;
 }
 #logo {
     display: flex;
@@ -47,14 +49,7 @@ nav ul li:hover {
     text-decoration: none;
     font-size: 1.2rem;
 }
-.second {
-    background-color: #1e1e1e;
-    height: 3000px;
-}
-.third {
-    background-color: black;
-    height: 690px;
-}
+
 .footer {
     background-color: aqua;
     height: 207px;
@@ -66,4 +61,18 @@ nav ul li:hover {
 }
 .noScroll {
     overflow-y: hidden;
+}
+.slide-background {
+    padding-top: 100px;
+    background-image: url("./images/blurredHero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.project-header {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
