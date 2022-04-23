@@ -8,7 +8,8 @@ function Header() {
             <Link to="/"><h1 id="logo">Brian K - Software Engineer</h1></Link>
             <ul>
                 <Link to="/"><li>Portfolio</li></Link>
-                <Link to ="/resume"><li>Resume</li></Link>
+                {/* <Link to ="/resume"><li>Resume</li></Link> */}
+                <Link to="contact"><li className='contact-btn'>Contact Me</li></Link>
             </ul>
         </nav>
     </header>
