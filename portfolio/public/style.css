@@ -18,6 +18,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-right: 2px solid black;
     /* height: 45px;
     position: relative;
     background-color: #fff;
@@ -70,10 +71,6 @@ nav ul button:hover {
 
 }
 
-.footer {
-    background-color: aqua;
-    height: 207px;
-}
 .background-section {
     height: 100vh;
     background-color: black;
@@ -107,5 +104,14 @@ nav ul button:hover {
 .socials i {
     margin-left: 5px;
     margin-right: 5px;
+    color: black;
+}
+footer {
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 19px;
+}
+footer h2 {
+    text-align: center;
     color: black;
 }
