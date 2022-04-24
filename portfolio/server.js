@@ -40,9 +40,10 @@ app.post('/api/contact', (req,res) => {
   const name = req.body.name;
   const last_name = req.body.last_name;
   const email = req.body.email;
+  const message = req.body.message;
 
-    db2.query('INSERT INTO contacts (name,last_name,email)VALUES(?,?,?)'
-    ,[name,last_name,email]),
+    db2.query('INSERT INTO contacts (name,last_name,email,message)VALUES(?,?,?,?)'
+    ,[name,last_name,email,message]),
     (err, result) => {
       console.log(err);
     }

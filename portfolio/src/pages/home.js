@@ -8,6 +8,7 @@ function Home () {
     const [name, setName] = useState("");
     const [last_name, setLast_Name] = useState("");
     const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
 
 
     const submit = () => {
@@ -15,6 +16,7 @@ function Home () {
             name: name,
             last_name: last_name,
             email: email,
+            message: message,
         }).then((data) => {
             console.log(data)
         })
@@ -65,6 +67,9 @@ function Home () {
                 <input type='text' name="email" placeholder='Email' className='field' onChange={(e) => {
                                     setEmail(e.target.value)
                                 }} required />
+                <textarea name="message" placeholder='Message' className='field' onChange={(e) => {
+                    setMessage(e.target.value)
+                }} required />
                 <button onClick={submit} type='submit' className='contactPage-btn'><span className='send'>Send</span></button>
             </div>
         </form>
