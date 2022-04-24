@@ -1,7 +1,7 @@
 .hero-title {
     font-size: 3rem;
     text-align: center;
-    line-height: 800px;
+    padding-top: 360px;
     color: white;
     z-index: 1;
 }
@@ -10,22 +10,42 @@
 }
 .section-1 {
     background-image: url(./images/DucSlowed.gif);
-    min-height: 93vh;
+    min-height: 100vh;
+    padding-left: 200px;
 }
 .section-2 {
     background-color: bisque;
-    min-height: 500px;
+    min-height: 100vh;
+    padding-left: 200px;
+    margin-top: 5px;
+}
+.section-2 h1 {
+    font-size: 3rem;
+    padding-top: 23px; 
+    padding-left: 50px;
+    
+}
+
+.aboutMe {
+    margin-top: 50px;
+    font-size: 1rem;
+    margin-left: 450px;
+    text-align: center;
+    color: white;
+    inline-size: 800px;
 }
 .section-3 {
     background-color: lightcoral;
-    min-height: 500px;
+    min-height: 100vh;
+    padding-left: 200px;
+    margin-top: 5px;
 }
-.hero-btn{
+/* .hero-btn{
     border: 2px solid black;
     padding: 10px;
     background-color: white;
     cursor: pointer;
-}
+} */
 
 .glow-on-hover {
     width: 200px;
@@ -39,6 +59,8 @@
     z-index: 0;
     border-radius: 10px;
     border: 1px solid whitesmoke;
+    margin-top: 150px;
+    text-transform: uppercase;
 }
 
 .glow-on-hover:before {

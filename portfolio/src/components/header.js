@@ -2,14 +2,34 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 
 function Header() {
+    function projects() {
+        window.scrollTo({
+            top: 970,
+            behavior: 'smooth'
+          });
+      }
+      function aboutme() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+      }
+      function contact() {
+        window.scrollTo({
+            top: 1945,
+            behavior: 'smooth'
+          });
+      }
     return (
     <header>
         <nav>
-            <Link to="/"><h1 id="logo">Brian K - Software Engineer</h1></Link>
+            <div className='logo'>
+                <img src='/images/200pxDuc.png' alt='lol' />
+            </div>
             <ul>
-                <Link to="/"><li>Portfolio</li></Link>
-                {/* <Link to ="/resume"><li>Resume</li></Link> */}
-                <Link to="contact"><li className='contact-btn'>Contact Me</li></Link>
+                <button onClick={aboutme}>About</button>
+                <button onClick={projects}>Work</button>
+                <button onClick={contact}>Contact</button>
             </ul>
         </nav>
     </header>
