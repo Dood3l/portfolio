@@ -26,8 +26,11 @@ nav {
     z-index: 1; */
 }
 .logo {
-    margin-top: -400px;
+    margin-top: -300px;
     margin-bottom: 100px;
+}
+.logo:hover {
+    cursor: pointer;
 }
 
 nav ul {
@@ -66,13 +69,6 @@ nav ul button:hover {
     cursor: pointer;
 
 }
-#logo {
-    display: flex;
-    margin-top: 23px; 
-    margin-left: 50px;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
 
 .footer {
     background-color: aqua;
@@ -104,4 +100,12 @@ nav ul button:hover {
     color: white;
     background-color: rgb(13, 110, 253, 1);
     cursor: pointer;
+}
+.socials{
+    margin-top: 100px;
+}
+.socials i {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
 }

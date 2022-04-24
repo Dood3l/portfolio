@@ -13,18 +13,6 @@
     min-height: 100vh;
     padding-left: 200px;
 }
-.section-2 {
-    background-color: bisque;
-    min-height: 100vh;
-    padding-left: 200px;
-    margin-top: 5px;
-}
-.section-2 h1 {
-    font-size: 3rem;
-    padding-top: 23px; 
-    padding-left: 50px;
-    
-}
 
 .aboutMe {
     margin-top: 50px;
