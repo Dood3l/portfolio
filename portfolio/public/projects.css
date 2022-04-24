@@ -1,0 +1,37 @@
+.section-2 {
+    background-color: bisque;
+    min-height: 100vh;
+    padding-left: 200px;
+    margin-top: 5px;
+}
+.section-2 h1 {
+    font-size: 3rem;
+    padding-top: 23px; 
+    padding-left: 50px;
+    
+}
+
+.card-img {
+width: 80%;
+height: 100%;
+transition:0.2s;
+border: 1px solid black;
+}
+.cards {
+margin-top: 80px;
+margin-left: 170px;
+max-width:1920px;
+max-height: auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items:center;
+gap:20px;
+}
+.cards:hover img {
+opacity:0.3;
+}
+.cards img:hover{
+    opacity:1;
+    cursor: pointer;
+    width: 85%;
+}
