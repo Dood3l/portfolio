@@ -57,7 +57,7 @@ function Home () {
         <form method='POST' className="content-box" action="/contact">
             <div className="left" style={hero}></div>
             <div className="right">
-                <h2 className='contact-h2'>Contact Us</h2>
+                <h2 className='contact-h2'>Thank you for reaching out! How may I help?</h2>
                 <input name="first name" placeholder='First Name' className='field' onChange={(e) => {
                                     setName(e.target.value)
                                 }} required />
