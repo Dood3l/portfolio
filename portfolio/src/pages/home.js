@@ -34,7 +34,9 @@ function Home () {
     <section className='section-1'>
         <div className='section-1-hero'>
             <h1 className='hero-title'>Hi, I'm Brian. I'm an associate software engineer.</h1>
-            <p className='aboutMe'>Hardworking and dependable worker, capable of grasping concepts quickly with the ability to apply them. Dedicated to producing quality of high standard. Organized with high-level multitasking capability.</p>
+            <div className='hero-aboutme-cont'>
+            <h6 className='aboutMe'>Hardworking and dependable worker, capable of grasping concepts quickly with the ability to apply them. Dedicated to producing quality of high standard. Organized with high-level multitasking capability.</h6>
+            </div>
             <div className='hero-learnMore'>
             <button className='glow-on-hover' onClick={contact}>Get in touch</button>
             </div>
