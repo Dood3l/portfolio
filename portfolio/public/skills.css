@@ -1,0 +1,85 @@
+.skillset-cont {
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 5px;
+    padding-left: 200px;
+}
+.skillset-cont h1 {
+    font-size: 3rem;
+    padding-top: 23px; 
+    padding-left: 50px; 
+}
+.skills-cont {
+    background: #13333e;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 2.4rem 5rem;
+    margin: 50px;
+    height: 350px;
+}
+
+.skills-child h3{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+.skills-child h2 {
+    text-align: center;
+    margin-top: 125px;
+    font-size: 1.25rem;
+    color: white;
+}
+.skillImg-cont{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+.skills-img {
+    margin: 25px;
+}
+.skills-img:nth-child(1){
+    background-image: url(./images/skills/htmlLogo.svg);
+    height: 110px;
+    min-width: 110px;
+    background-size: cover;
+}
+.skills-img:nth-child(2){
+    background-image: url(./images/skills/cssLogo.svg);
+    height: 110px;
+    min-width: 110px;
+    background-size: cover;
+}
+.skills-img:nth-child(3){
+    background-image: url(./images/skills/javascriptLogo.svg);
+    height: 110px;
+    min-width: 110px;
+    background-size: cover;
+}
+.skills-img:nth-child(4){
+    background-image: url(./images/skills/bootstrapLogo.svg);
+    height: 110px;
+    min-width: 110px;
+    background-size: cover;
+}
+.skills-img:nth-child(5){
+    background-image: url(./images/skills/reactLogo.svg);
+    height: 110px;
+    min-width: 110px;
+    background-size: cover;
+}
+
+.skills-img2 {
+    margin: 25px;
+}
+.skills-img2:nth-child(1){
+    background-image: url(./images/skills/nodejsLogo.svg);
+    height: 100px;
+    min-width: 165px;
+    background-size: cover;
+}
+.skills-img2:nth-child(2){
+    background-image: url(./images/skills/mysqlLogo.svg);
+    height: 110px;
+    min-width: 110px;
+    background-size: cover;
+}

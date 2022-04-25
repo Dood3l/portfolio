@@ -1,4 +1,3 @@
-import axios from 'axios'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import HeroImg from './duckWall.png'
@@ -44,6 +43,42 @@ function Home () {
     </section>
 
     <section className='skillset-cont'>
+        <h1>My skills</h1>
+        <div className='skills-cont'>
+            <div className='skills-child'>
+                <h3>Frontend</h3>
+                <div className='skillImg-cont'>
+                <div className='skills-img'>
+                    <h2>HTML</h2>
+                </div>
+                <div className='skills-img'>
+                    <h2>CSS</h2>
+                </div>
+                <div className='skills-img'>
+                    <h2>JavaScript</h2>
+                </div>
+                <div className='skills-img'>
+                    <h2>Bootstrap</h2>
+                </div>
+                <div className='skills-img'>
+                    <h2>ReactJS</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div className='skills-cont'>
+            <div className='skills-child'>
+                <h3>Backend</h3>
+                <div className='skillImg-cont'>
+                <div className='skills-img2'>
+                    <h2>NodeJS</h2>
+                </div>
+                <div className='skills-img2'>
+                    <h2>MySQL</h2>
+                </div>
+            </div>
+        </div>
+        </div>
 
     </section>
 
@@ -53,7 +88,8 @@ function Home () {
       <a href='https://brian-ecommerceheroku.herokuapp.com/'  target="_blank" rel="noopener noreferrer"><img src="/images/ecom-screenshot.png"  className='card-img' alt="" /></a>
       <a href='https://netflix-redesign-project.herokuapp.com/'  target="_blank" rel="noopener noreferrer"><img src="/images/netflix-screenshot.png" className='card-img' alt="" /></a>
       <a href='https://rth-final.bk000002.repl.co/'  target="_blank" rel="noopener noreferrer"><img src="/images/gateway-screenshot.png" className='card-img' alt="" /></a>
-      <img src="/images/netflix-screenshot.png" className='card-img' alt="" />
+      <a href='https://euphonious-begonia-69b1aa.netlify.app' target="_blank" rel="noopener noreferrer"><img src="/images/spacexMock.png" className='card-img' alt="" /></a>
+      
         </div>
     </section>
 
