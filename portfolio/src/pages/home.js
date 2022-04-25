@@ -22,7 +22,7 @@ function Home () {
 
     function contact() {
         window.scrollTo({
-            top: 1945,
+            top: 2960,
             behavior: 'smooth'
           });
       }
@@ -44,7 +44,7 @@ function Home () {
     </section>
 
     <section className='skillset-cont'>
-        
+
     </section>
 
     <section className='section-2'>

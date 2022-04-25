@@ -36,6 +36,7 @@ function Header() {
                 <button onClick={skills}>Skills</button>
                 <button onClick={projects}>Work</button>
                 <button onClick={contact}>Contact</button>
+                <a href='/Resume.pdf' download="Brian K's Resume"><button>Resume</button></a>
             </ul>
             <div className='socials'>
                 <a href='https://www.linkedin.com/in/brian-k/' target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2x"></i></a>

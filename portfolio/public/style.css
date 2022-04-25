@@ -27,7 +27,7 @@ nav {
     z-index: 1; */
 }
 .logo {
-    margin-top: -300px;
+    margin-top: -12vh;
     margin-bottom: 100px;
 }
 .logo:hover {
