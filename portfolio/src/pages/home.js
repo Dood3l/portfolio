@@ -43,6 +43,10 @@ function Home () {
         </div>
     </section>
 
+    <section className='skillset-cont'>
+        
+    </section>
+
     <section className='section-2'>
         <h1>Sites I've created/worked on</h1>
         <div class="cards">

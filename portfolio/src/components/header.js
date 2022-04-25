@@ -1,21 +1,27 @@
 import React from 'react'
 
 function Header() {
-    function projects() {
+    function aboutme() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+            });
+    }
+    function skills() {
         window.scrollTo({
             top: 970,
             behavior: 'smooth'
-          });
+            });
     }
-    function aboutme() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-        });
+    function projects() {
+        window.scrollTo({
+            top: 1945,
+            behavior: 'smooth'
+          });
     }
     function contact() {
         window.scrollTo({
-            top: 1945,
+            top: 2960,
             behavior: 'smooth'
         });
     }
@@ -27,6 +33,7 @@ function Header() {
             </div>
             <ul>
                 <button onClick={aboutme}>About</button>
+                <button onClick={skills}>Skills</button>
                 <button onClick={projects}>Work</button>
                 <button onClick={contact}>Contact</button>
             </ul>
