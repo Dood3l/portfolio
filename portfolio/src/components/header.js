@@ -6,19 +6,19 @@ function Header() {
             top: 970,
             behavior: 'smooth'
           });
-      }
-      function aboutme() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-          });
-      }
-      function contact() {
+    }
+    function aboutme() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        });
+    }
+    function contact() {
         window.scrollTo({
             top: 1945,
             behavior: 'smooth'
-          });
-      }
+        });
+    }
     return (
     <header>
         <nav>

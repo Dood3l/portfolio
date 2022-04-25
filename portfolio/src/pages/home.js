@@ -1,26 +1,25 @@
 import axios from 'axios'
-import { React, useState, } from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import HeroImg from './duckWall.png'
 const hero = {
     backgroundImage: `url(${HeroImg})`
 }
 function Home () {
-    const [name, setName] = useState("");
-    const [last_name, setLast_Name] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+    const form = useRef();
 
-
-    const submit = () => {
-        axios.post('/api/contact', {
-            name: name,
-            last_name: last_name,
-            email: email,
-            message: message,
-        }).then((data) => {
-            console.log(data)
-        })
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_a1ulv47', 'template_jsf79fv', form.current, 'aDfn1XB63PSrnMY8C')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
     }
+
     function contact() {
         window.scrollTo({
             top: 1945,
@@ -54,23 +53,17 @@ function Home () {
 
     <section className='section-3'>
         <section className="contact-container">
-        <form method='POST' className="content-box" action="/contact">
+        <form className="content-box" ref={form} onSubmit={sendEmail}>
             <div className="left" style={hero}></div>
             <div className="right">
                 <h2 className='contact-h2'>Thank you for reaching out! How may I help?</h2>
-                <input name="first name" placeholder='First Name' className='field' onChange={(e) => {
-                                    setName(e.target.value)
-                                }} required />
-                <input name="last name" placeholder='Last Name' className='field' onChange={(e) => {
-                                    setLast_Name(e.target.value)
-                                }} required />
-                <input type='text' name="email" placeholder='Email' className='field' onChange={(e) => {
-                                    setEmail(e.target.value)
-                                }} required />
-                <textarea name="message" placeholder='Message' className='field' onChange={(e) => {
-                    setMessage(e.target.value)
-                }} required />
-                <button onClick={submit} type='submit' className='contactPage-btn'><span className='send'>Send</span></button>
+                <input type="text" name="user_name" placeholder="Full Name" className='field' required/>
+
+                <input type='email' name="user_email" placeholder='Email' className='field' required/>
+
+                <textarea name="message" placeholder='Message' className='field' required/>
+
+                <input type="submit" value="Send" className='contactPage-btn'/>
             </div>
         </form>
         </section>
