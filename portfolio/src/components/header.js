@@ -15,7 +15,7 @@ function Header() {
     }
     function projects() {
         window.scrollTo({
-            top: 1945,
+            top: 1890,
             behavior: 'smooth'
           });
     }
