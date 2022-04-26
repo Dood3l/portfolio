@@ -78,28 +78,3 @@ h2 {
 .contactPage-btn {
     color: white;
 }
-@media screen and (max-width:800px) {
-    .content-box {
-        grid-template-columns: 1fr;
-    }
-    .left {
-        height: 200px;;
-    }
-}
-@media screen and (max-width: 450px) {
-    .contact-container{
-        padding: 10px;
-    }
-    .content-box {
-        grid-template-columns: 1fr;
-        width: 500px;
-    }
-    .left {
-        height: 200px;
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 10px;
-    }
-    .right {
-        padding: 25px 40px;
-    }
-}
