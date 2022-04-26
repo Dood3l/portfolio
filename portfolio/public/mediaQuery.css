@@ -85,3 +85,23 @@
         padding: 25px 40px;
     }
 }
+@media screen and (max-width: 1120px) {
+    nav {
+        height: 100px;
+        width: 100%;
+        z-index: 1;
+        border-bottom: 1px solid black;
+    }
+    #mobile {
+        display: flex;
+        margin: -142px;
+        margin-top: -15px;
+    }
+    #mobile-socials {
+        margin-right: -610px;
+    }
+    .logo{
+        display: none;
+    }
+
+}
