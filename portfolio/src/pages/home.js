@@ -8,7 +8,7 @@ function Home () {
 
     function contact() {
         window.scrollTo({
-            top: 3400,
+            top: 5000,
             behavior: 'smooth'
           });
       }
