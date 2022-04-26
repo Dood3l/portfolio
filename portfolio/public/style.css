@@ -26,6 +26,47 @@ nav {
     border-bottom: 1px solid black;
     z-index: 1; */
 }
+@media screen and (max-width: 1120px) {
+    nav {
+        height: 100px;
+        width: 100%;
+        z-index: 1;
+        border-bottom: 1px solid black;
+    }
+    #mobile {
+        display: flex;
+        margin: -142px;
+        margin-top: -15px;
+    }
+    #mobile-socials {
+        margin-right: -610px;
+    }
+    .logo{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    #mobile-btn {
+        font-size: 0.95rem;
+    }
+    #mobile-hero-title {
+        padding-top: 150px;
+        font-size: 1.5rem;
+    }
+    #mobile-glow {
+        margin-top: 65px;
+    }
+    #mobile-section-2 h1{
+        font-size: 2.1rem;
+    }
+    #mobile-cards {
+        text-align: right;
+    }
+    #mobile-skills-img {
+        
+    }
+}
 .logo {
     margin-top: -12vh;
     margin-bottom: 100px;
