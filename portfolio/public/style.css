@@ -63,6 +63,10 @@ nav {
     #mobile-cards {
         text-align: right;
     }
+    #mobile-socials {
+        margin-right: -280px;
+        margin-top: 70px;
+    }
 }
 .logo {
     margin-top: -12vh;
