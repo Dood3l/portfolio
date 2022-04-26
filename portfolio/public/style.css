@@ -46,28 +46,7 @@ nav {
     }
 
 }
-@media screen and (max-width: 450px) {
-    #mobile-btn {
-        font-size: 0.95rem;
-    }
-    #mobile-hero-title {
-        padding-top: 150px;
-        font-size: 1.5rem;
-    }
-    #mobile-glow {
-        margin-top: 65px;
-    }
-    #mobile-section-2 h1{
-        font-size: 2.1rem;
-    }
-    #mobile-cards {
-        text-align: right;
-    }
-    #mobile-socials {
-        margin-right: -280px;
-        margin-top: 70px;
-    }
-}
+
 .logo {
     margin-top: -12vh;
     margin-bottom: 100px;
